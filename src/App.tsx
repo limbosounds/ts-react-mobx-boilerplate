@@ -2,6 +2,7 @@ import React from "react"
 import { RouteComponentProps, Switch, Route } from "react-router-dom"
 
 import "styles/main"
+import "styles/universal"
 
 import NotFound from "views/NotFound"
 import Homepage from "views/Homepage"

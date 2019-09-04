@@ -19,7 +19,7 @@ extends React.Component<NotFoundProps, NotFoundState> {
 			</Helmet>
 			<main className="v-not-found">
 				<h1>{title}</h1>
-				<Link to="/">
+				<Link to="/" className="u-button">
 					To homepage
 				</Link>
 			</main>

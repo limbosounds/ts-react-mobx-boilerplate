@@ -2,7 +2,17 @@
 
 main.v-homepage
 	padding: 40px
-	h1
+	> *
 		text-align: center
+
+	h1
 		color: $colorMain
-		
+
+	p
+		margin: 20px auto
+		span
+			font-weight: 700
+			&.positive
+				color: green
+			&.negative
+				color: red
