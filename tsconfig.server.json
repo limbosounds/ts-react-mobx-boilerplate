@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es5",
+        "moduleResolution": "node",
+        "baseUrl": "src",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "strict": false,
+        "sourceMap": true,
+        "outDir": "dist/",
+        "jsx": "react",
+        "traceResolution": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowJs": true,
+        "declaration": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "types": [ "node" ],
+        "lib": ["es6", "dom", "dom.iterable"],
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+        "typeRoots": [
+            "./node_modules/@types",
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html <%= htmlWebpackPlugin.options._htmlAttributes %>>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<%= htmlWebpackPlugin.options._title %>
+	<%= htmlWebpackPlugin.options._meta %>
+	<%= htmlWebpackPlugin.options._link %>
+
+	<%= htmlWebpackPlugin.options._preload %>
+	<%= htmlWebpackPlugin.options._version %>
+</head>
+<body <%= htmlWebpackPlugin.options._bodyAttributes %>>
+	<div id="__root">
+		<noscript><%= htmlWebpackPlugin.options._body %></noscript>
+	</div>
+</body>
+</html>
